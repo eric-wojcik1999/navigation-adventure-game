@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatusBar">
+
+
+    <TextView
+        android:id="@+id/status_bar_title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/status_bar" />
+
+    <TextView
+        android:id="@+id/health_title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/health" />
+
+    <TextView
+        android:id="@+id/show_health_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/showhp"/>
+
+    <TextView
+        android:id="@+id/cash_title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="120dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/cash" />
+
+    <TextView
+        android:id="@+id/show_cash_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/showcash" />
+
+    <TextView
+        android:id="@+id/mass_title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="235dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/mass"
+        tools:text="Mass:" />
+
+    <TextView
+        android:id="@+id/show_mass_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/showmass" />
+
+    <TextView
+        android:id="@+id/status_title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/status" />
+
+    <TextView
+        android:id="@+id/show_status_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/showid" />
+
+    <Button
+        android:id="@+id/restart_button_id"
+        android:layout_width="231dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/restart" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="90dp"
+        android:alpha="255"
+        android:background="?android:attr/listDivider"
+        android:visibility="visible" />
+
+</FrameLayout>

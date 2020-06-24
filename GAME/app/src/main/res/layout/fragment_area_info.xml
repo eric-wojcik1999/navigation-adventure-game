@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AreaInfo">
+
+    <TextView
+        android:id="@+id/area_info_title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/area_information" />
+
+    <TextView
+        android:id="@+id/location_title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/location"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/show_location_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/showlocation" />
+
+    <TextView
+        android:id="@+id/area_desc_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/area_description"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/edit_desc_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:ems="14"
+        android:hint="@string/type_a_string_area_description"
+        android:inputType="textPersonName"
+        android:text="@string/inputdesc" />
+
+    <ToggleButton
+        android:id="@+id/star_area_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/star_area" />
+
+    <Button
+        android:id="@+id/edit_button_id"
+        android:layout_width="54dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="110dp"
+        android:text="@string/edit" />
+
+</FrameLayout>
